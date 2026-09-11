@@ -22,7 +22,7 @@ Git、Node.js 22.22 以降、npm、Windows PowerShell 5.1 以降が必要です�
 
 ```powershell
 git clone https://github.com/NousResearch/hermes-agent.git
-git clone https://github.com/BlackTea-Bird/hermes-ko.git
+git clone https://github.com/BlackTea-Bird/hermes-ko.git hermes-desktop-korean
 
 powershell -NoProfile -File .\hermes-desktop-korean\scripts\apply-localization.ps1 `
   -HermesRepo .\hermes-agent

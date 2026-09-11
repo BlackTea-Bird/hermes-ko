@@ -25,7 +25,7 @@ Git, Node.js 22.22 이상, npm, Windows PowerShell 5.1 이상이 필요합니다
 
 ```powershell
 git clone https://github.com/NousResearch/hermes-agent.git
-git clone https://github.com/BlackTea-Bird/hermes-ko.git
+git clone https://github.com/BlackTea-Bird/hermes-ko.git hermes-desktop-korean
 
 powershell -NoProfile -File .\hermes-desktop-korean\scripts\apply-localization.ps1 `
   -HermesRepo .\hermes-agent
