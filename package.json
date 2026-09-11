@@ -1,0 +1,19 @@
+{
+  "name": "hermes-desktop-korean",
+  "version": "1.0.0",
+  "description": "Complete Korean localization for Hermes Desktop",
+  "type": "module",
+  "private": false,
+  "scripts": {
+    "test": "node scripts/verify-localization.mjs",
+    "verify": "node scripts/verify-localization.mjs",
+    "update-locale": "node scripts/update-localization.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "devDependencies": {
+    "typescript": "6.0.3"
+  },
+  "license": "MIT"
+}
