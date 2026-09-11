@@ -1,6 +1,6 @@
 # Hermes Desktop 韓国語ローカライズ
 
-[![Verify localization](https://github.com/Bum-Boo/hermes-desktop-korean/actions/workflows/verify.yml/badge.svg)](https://github.com/Bum-Boo/hermes-desktop-korean/actions/workflows/verify.yml)
+[![Verify localization](https://github.com/BlackTea-Bird/hermes-ko/actions/workflows/verify.yml/badge.svg)](https://github.com/BlackTea-Bird/hermes-ko/actions/workflows/verify.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Upstream](https://img.shields.io/badge/upstream-NousResearch%2Fhermes--agent-2563eb)](https://github.com/NousResearch/hermes-agent)
 
@@ -22,7 +22,7 @@ Git、Node.js 22.22 以降、npm、Windows PowerShell 5.1 以降が必要です�
 
 ```powershell
 git clone https://github.com/NousResearch/hermes-agent.git
-git clone https://github.com/Bum-Boo/hermes-desktop-korean.git
+git clone https://github.com/BlackTea-Bird/hermes-ko.git
 
 powershell -NoProfile -File .\hermes-desktop-korean\scripts\apply-localization.ps1 `
   -HermesRepo .\hermes-agent
